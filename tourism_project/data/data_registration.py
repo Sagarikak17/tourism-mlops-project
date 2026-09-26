@@ -1,7 +1,7 @@
 import os
 from huggingface_hub import HfApi, create_repo
 
-HF_USERNAME = "Sagarikak17"   # <-- change this
+HF_USERNAME = "Sagarikak17"
 DATASET_REPO = f"{HF_USERNAME}/tourism-dataset"
 
 api = HfApi(token=os.environ["HF_TOKEN"])
