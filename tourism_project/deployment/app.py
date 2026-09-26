@@ -3,7 +3,7 @@ import pandas as pd
 import joblib
 from huggingface_hub import hf_hub_download
 
-MODEL_REPO = "your-hf-username/tourism-model"   # <-- change this to your HF username
+MODEL_REPO = "Sagarikak17/tourism-model"   # <-- change this to your HF username
 
 @st.cache_resource
 def load_model():
