@@ -7,7 +7,7 @@ from sklearn.ensemble import RandomForestClassifier, GradientBoostingClassifier
 from sklearn.linear_model import LogisticRegression
 from sklearn.metrics import accuracy_score, precision_score, recall_score, f1_score
 
-HF_USERNAME = "your-hf-username"   # <-- change this
+HF_USERNAME = "Sagarikak17"   # <-- change this
 DATASET_REPO = f"{HF_USERNAME}/tourism-dataset"
 MODEL_REPO = f"{HF_USERNAME}/tourism-model"
 
